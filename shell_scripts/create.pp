@@ -7,3 +7,4 @@ ec2_instance { 'demo':
     subnet_id           => 'subnet-2f932855',
     key_name            => 'my_new_key_pair', 
   }
+echo "test"
