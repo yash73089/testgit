@@ -10,7 +10,7 @@ a=0
 b=1
 for i in $(seq 1 $Num)
 do
-echo "$a"
+echo -n "$a "
 fn=$[$a + $b]
 a=$b
 b=$fn
